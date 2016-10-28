@@ -1,0 +1,34 @@
+{
+    "name": "phase/whmcs",
+    "description": "WHMCS API for Laravel 5",
+    "keywords": ["Whmcs", "API", "laravel", "php"],
+    "homepage": "https://github.com/mgufrone/whmcs-api.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilyas Deckers",
+            "email": "ilyas@phasehosting.io"
+        },
+        {
+            "name": "Mochamad Gufron",
+            "email": "mgufronefendi@gmail.com"
+        },
+        {
+            "name": "Rodrigo Queiroz",
+            "email": "rodrigo@queiroz.org"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5",
+        "guzzlehttp/guzzle": "~6"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Phase\\Whmcs": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
